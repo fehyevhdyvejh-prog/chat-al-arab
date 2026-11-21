@@ -1,0 +1,923 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:23009/archiveviewer/77319651/index.html
+Subject: =?utf-8?Q?=D8=B4=D8=A7=D8=AA=20=D8=A7=D9=84=D8=B9=D8=B1=D8=A8?=
+Date: Sat, 21 Nov 2026 21:54:14 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--aEn8VabRdG7VImHvvHGKKw5kJz431cuXCrkm3dm4xk----"
+
+
+------MultipartBoundary--aEn8VabRdG7VImHvvHGKKw5kJz431cuXCrkm3dm4xk----
+Content-Type: text/html
+Content-ID: <frame-E724226E02EC7318457D9EB173E35E1D@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: http://127.0.0.1:23009/archiveviewer/77319651/index.html
+
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-32c9df89-ac4f-4e5e-8738-ada41b558909@mhtml.blink" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شات العرب</title>
+  <link id="dynamicFavicon" rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'&gt;&lt;defs&gt;&lt;linearGradient id='g' x1='0' y1='0' x2='1' y2='1'&gt;&lt;stop offset='0%25' stop-color='%230095f6'/&gt;&lt;stop offset='100%25' stop-color='%23bc1888'/&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;rect width='120' height='120' rx='28' fill='url(%23g)'/&gt;&lt;text x='50%25' y='57%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='Arial,sans-serif' font-size='64' font-weight='bold'&gt;A&lt;/text&gt;&lt;/svg&gt;">
+  <meta name="theme-color" content="#0095f6">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="شات العرب">
+  <link rel="manifest" href="http://127.0.0.1:23009/archiveviewer/77319651/manifest.json">
+  
+</head>
+<body data-theme="dark">
+  <div id="imgLightbox" class="lightbox-modal">
+    <img id="lightboxImg" alt="معاينة الصورة">
+    <button type="button" class="b-accent" style="width:auto; padding:8px 18px;">إغلاق المعاينة</button>
+  </div>
+
+  
+  <!-- نافذة الاتصال الصوتي والمرئي -->
+  <div id="callModal" class="call-modal">
+    <div style="width:100%; max-width:440px; display:flex; align-items:center; justify-content:space-between;">
+      <span id="callModeBadge" class="badge-tag">📞 اتصال صوتي</span>
+      <span id="callTimerText" style="font-size:13px; font-weight:bold; color:#86efac; direction:ltr;">00:00</span>
+    </div>
+    <div class="call-stage">
+      <div class="call-avatar-ring">
+        <img id="callPeerAvatar" src="http://127.0.0.1:23009/archiveviewer/77319651/index.html" alt="المتصل">
+      </div>
+      <div id="callPeerName" style="font-size:17px; font-weight:bold;">المستخدم</div>
+      <div id="callStatusSub" style="font-size:12px; color:var(--muted);">جاري الاتصال...</div>
+      <video id="callLocalVideo" class="call-video-preview" autoplay="" playsinline="" muted=""></video>
+      <div id="callMediaHint" style="font-size:11px; color:#93c5fd;"></div>
+    </div>
+    <div class="call-controls">
+      <button type="button" id="callMuteBtn" class="b-gold" style="padding:10px 6px; font-size:11px;">🎙️ كتم</button>
+      <button type="button" id="callCamBtn" class="b-accent" style="padding:10px 6px; font-size:11px;">📷 كاميرا</button>
+      <button type="button" id="callSpkBtn" class="b-green" style="padding:10px 6px; font-size:11px;">🔊 مكبر</button>
+      <button type="button" class="b-red" style="padding:10px 6px; font-size:11px;">📵 إنهاء</button>
+    </div>
+  </div>
+
+  <div class="app-wrap">
+    <header class="top-bar">
+      <div class="top-brand">
+        <div id="brandLogoBox" class="brand-mark">A</div>
+        <div>
+          <div id="headerPageName" class="top-title">حسابي</div>
+          <div id="headerUserInfo" class="top-sub">عبد الرحمن العواضي (@1) ⌄</div>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button type="button" class="b-green mini-pill">⚙️ الإعدادات</button>
+        <button type="button" class="b-gold mini-pill">👁️ تمويه</button>
+        <div id="headerLockBadge" class="top-status open">🔓 مفتوح</div>
+      </div>
+    </header>
+
+    <div id="storiesRow" class="stories-row"></div>
+
+    <div id="roomsBar" class="rooms-bar">
+      <button type="button" class="room-chip active-room" data-room="direct">💬 خاص</button>
+      <button type="button" class="room-chip" data-room="عام">🌐 مجلس عام</button>
+      <button type="button" class="room-chip" data-room="كورة">⚽ الكورة</button>
+      <button type="button" class="room-chip" data-room="تقنية">💻 التقنية</button>
+      <button type="button" class="room-chip" data-room="دراسة">📚 الدراسة</button>
+    <button type="button" class="room-chip custom-group-chip" data-room="grp:grp_arab_club">👥 ديوانية العرب</button></div>
+
+    <div id="alertBar" class="alert-bar show">
+      <span id="alertBarText">ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</span>
+      <button type="button" class="b-accent" style="width:auto; padding:4px 9px; font-size:11px;">إغلاق</button>
+    </div>
+
+    <!-- صفحة 1: الرئيسية -->
+    <main id="view-home" class="page-view">
+      <div class="box-card" style="padding:8px; margin-bottom:10px;">
+        <div class="four-cols" style="margin-top:0; gap:5px;">
+          <button type="button" id="subtab-feed" class="b-accent">📰 الموجز</button>
+          <button type="button" id="subtab-reels" class="b-gold">🎬 ريلز</button>
+          <button type="button" id="subtab-search" class="b-green">🔍 بحث</button>
+          <button type="button" id="subtab-saved" class="b-accent">🔖 المحفوظات</button>
+        </div>
+      </div>
+
+      <div id="home-subview-search" style="display:none;">
+        <div class="search-page-card">
+          <div class="box-title">🔍 صفحة البحث عن مستخدم</div>
+          <label>ابحث بالاسم العام، الاسم بالإنجليزي، أو اسم المستخدم (@1 مثلاً):</label>
+          <input type="text" id="userSearchPageInput" placeholder="اكتب @1 أو اسم المستخدم أو الاسم..." style="margin-bottom:8px;">
+          <div style="display:flex; gap:6px; flex-wrap:wrap;">
+            <button type="button" class="decor-chip">الكل (@1)</button>
+            <button type="button" class="decor-chip">عبد الرحمن</button>
+            <button type="button" class="decor-chip">Abdulrahman</button>
+          </div>
+        </div>
+        <div id="userSearchResultsBox">
+          <div class="user-hit-card">
+            <div style="display:flex; align-items:center; gap:10px; min-width:0;">
+              <img src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'&gt;&lt;rect width='100%25' height='100%25' fill='%230095f6'/&gt;&lt;text x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='Tahoma,Arial' font-size='52' font-weight='bold'&gt;%D8%B9&lt;/text&gt;&lt;/svg&gt;" alt="عبد الرحمن العواضي" style="width:44px; height:44px; border-radius:50%; object-fit:cover; flex-shrink:0;">
+              <div style="min-width:0;">
+                <div style="font-size:13.5px; font-weight:bold;">عبد الرحمن العواضي <span class="ver-badge ">✓</span></div>
+                <div style="font-size:11px; color:#93c5fd; direction:ltr; text-align:right;">@1 • Abdulrahman Al-Awadhi</div>
+                <div style="font-size:10.5px; color:var(--muted);">عبود العواضي • 1 متابع</div>
+              </div>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:5px; flex-shrink:0;">
+              <span class="badge-tag">حسابك</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="home-subview-reels" style="display:none;">
+        <div class="search-page-card">
+          <div class="box-title">🎬 نشر ريل أو فيديو جديد</div>
+          <label>ضع رابط فيديو مباشر (MP4 / WebM) أو اختر ملف فيديو خفيف:</label>
+          <input type="file" id="reelVideoFileInput" accept="video/*" style="margin-bottom:8px;">
+          <input type="text" id="reelVideoUrlInput" placeholder="مثال: https://example.com/reel.mp4" style="margin-bottom:8px;">
+          <input type="text" id="reelCaptionInput" placeholder="اكتب وصف الريل أو الفيديو والهاشتاق..." style="margin-bottom:8px;">
+          <button type="button" class="b-green">🚀 نشر الريل / الفيديو الآن</button>
+        </div>
+        <div id="reelsFeedContainer">
+          <div class="reel-card">
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:8px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <img src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'&gt;&lt;rect width='100%25' height='100%25' fill='%230095f6'/&gt;&lt;text x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='Tahoma,Arial' font-size='52' font-weight='bold'&gt;%D8%B9&lt;/text&gt;&lt;/svg&gt;" alt="عبد الرحمن العواضي" style="width:36px; height:36px; border-radius:50%; object-fit:cover;">
+                <div>
+                  <div style="font-size:13px; font-weight:bold;">عبد الرحمن العواضي <span class="ver-badge ">✓</span></div>
+                  <div style="font-size:10.5px; color:#93c5fd;">@1 • فيديو / ريل</div>
+                </div>
+              </div>
+              <span class="badge-tag">🎬 ريل</span>
+            </div>
+            <div style="font-size:12.5px; margin-top:8px; line-height:1.5;">أهلاً بكم في ريلز شات العرب 🔥 • تجربة سريعة وتفاعلات فورية</div>
+            <div class="reel-player-wrap">
+              <video class="reel-video" src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" controls="" playsinline="" preload="metadata"></video>
+            </div>
+            <div class="reel-actions-bar">
+              <button type="button" class="reel-pill-btn active-like">❤️ إعجاب (1)</button>
+              <button type="button" class="reel-pill-btn">🔥 2</button>
+              <button type="button" class="reel-pill-btn">❤️ 1</button>
+              <button type="button" class="reel-pill-btn">👏 0</button>
+              <button type="button" class="reel-pill-btn">😂 0</button>
+              <button type="button" class="reel-pill-btn saved-chip-btn ">📑 حفظ</button>
+            </div>
+            <div class="reel-comments-box">
+              <div style="font-size:11px; color:var(--muted); margin-bottom:6px;">💬 التعليقات (1)</div>
+              <div class="reel-comment-item"><strong>عبد الرحمن العواضي:</strong> أول ريل في التطبيق 🎬</div>
+              <div style="display:flex; gap:6px; margin-top:6px;">
+                <input type="text" id="reelCommentInp_reel_welcome_1" placeholder="اكتب تعليقاً سريعاً..." style="flex:1;">
+                <button type="button" class="b-accent" style="width:auto; padding:0 11px; font-size:11px;">إرسال</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="home-subview-saved" style="display:none;">
+        <div class="search-page-card">
+          <div class="box-title">🔖 المحفوظات والمفضلة</div>
+          <div style="font-size:11.5px; color:var(--muted);">كل الريلزات التي حفظتها للرجوع السريع</div>
+        </div>
+        <div id="savedItemsContainer"><div class="search-page-card" style="font-size:12px; color:var(--muted);">لا توجد عناصر محفوظة بعد. اضغط على <b>📑 حفظ</b> في أي ريل لحفظه هنا.</div></div>
+      </div>
+
+      <div id="home-subview-feed">
+        <div class="pub-card">
+          <div class="box-title" style="margin-bottom:8px;">
+            <span>🌟 حسابات عامة (ظاهرة للكل)</span>
+            <span style="font-size:11px; color:var(--muted);">الاسم العام + @اسم_المستخدم</span>
+          </div>
+          <div id="publicDirectoryBox" class="pub-grid">
+          <div class="pub-user-item">
+            <div style="display:flex; align-items:center; gap:9px; min-width:0;">
+              <img src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'&gt;&lt;rect width='100%25' height='100%25' fill='%230095f6'/&gt;&lt;text x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='Tahoma,Arial' font-size='52' font-weight='bold'&gt;%D8%B9&lt;/text&gt;&lt;/svg&gt;" alt="عبد الرحمن العواضي" style="width:40px; height:40px; border-radius:50%; object-fit:cover; flex-shrink:0;">
+              <div style="min-width:0;">
+                <div style="font-size:13px; font-weight:bold;">عبد الرحمن العواضي <span class="ver-badge ">✓</span></div>
+                <div style="font-size:11px; color:#93c5fd; direction:ltr; text-align:right;">@1 • Abdulrahman Al-Awadhi</div>
+                <div style="font-size:10.5px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">عبود العواضي</div>
+              </div>
+            </div>
+            <span class="badge-tag">حسابك</span>
+          </div>
+        </div>
+        </div>
+        <div class="box-card" style="padding:10px;">
+          <input type="text" id="homeSearchInput" placeholder="🔎 ابحث في الرسائل والروابط أو @المستخدم...">
+        </div>
+        <div id="homePostsContainer"><div class="box-card" style="text-align:center; color:var(--muted); padding:26px 14px;">لا توجد رسائل أو صور بعد. افتح صفحة <b>المحادثات</b> أو المجالس وابدأ المراسلة.</div></div>
+      </div>
+    </main>
+
+    <!-- صفحة 2: المحادثات -->
+    <section id="view-chat" class="page-view">
+      
+      <div id="igDmInboxBox" class="ig-dm-inbox">
+        <div class="ig-dm-inbox-title">
+          <span>✉️ الرسائل المباشرة (اضغط على أي مستخدم للدخول)</span>
+          <span id="igDmCountBadge" class="badge-tag">0</span>
+        </div>
+        <div id="igDmThreadsList" class="ig-dm-list"></div>
+      </div>
+
+      <div id="igActiveThreadBar" class="ig-active-thread-bar">
+        <div style="display:flex; align-items:center; gap:8px; min-width:0;">
+          <img id="igThreadAv" src="http://127.0.0.1:23009/archiveviewer/77319651/index.html" alt="المحادث" style="width:34px; height:34px; border-radius:50%; object-fit:cover; flex-shrink:0;">
+          <div style="min-width:0;">
+            <div id="igThreadTitle" style="font-size:13px; font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">المحادثة</div>
+            <div id="igThreadSub" style="font-size:10.5px; color:var(--green);">متاح الآن</div>
+          </div>
+        </div>
+        <div style="display:flex; gap:5px; flex-shrink:0;">
+          <button type="button" class="b-green" style="width:auto; padding:6px 8px; font-size:11px;" title="اتصال صوتي">📞</button>
+          <button type="button" class="b-accent" style="width:auto; padding:6px 8px; font-size:11px;" title="اتصال فيديو">📹</button>
+        </div>
+      </div>
+
+      <div class="peer-row" id="peerSelectRow">
+        <div style="flex:1;">
+          <label>المحادثة مع:</label>
+          <select id="chatPeerSelect"></select>
+        </div>
+        <button type="button" class="b-green" style="width:auto; padding:10px 9px; font-size:11px;" title="اتصال صوتي">📞</button>
+        <button type="button" class="b-accent" style="width:auto; padding:10px 9px; font-size:11px;" title="اتصال فيديو">📹</button>
+        <button type="button" class="b-gold" style="width:auto; padding:10px 9px; font-size:11px;">حظر</button>
+        <button type="button" class="b-red" style="width:auto; padding:10px 9px; font-size:11px;">مسح</button>
+      </div>
+
+      <div style="display:flex; gap:6px; margin-bottom:8px;">
+        <button type="button" class="b-accent" style="width:auto; padding:6px 10px; font-size:11px;">👥 + إنشاء مجموعة جديدة</button>
+        <button type="button" id="deleteGroupBtn" class="b-red" style="display:none; width:auto; padding:6px 10px; font-size:11px;">حذف المجموعة</button>
+      </div>
+
+      <div id="groupCreatorBox" class="group-creator-box" style="display:none;">
+        <div class="box-title" style="margin-bottom:6px;">👥 إنشاء مجموعة جديدة</div>
+        <label>اسم المجموعة:</label>
+        <input type="text" id="newGroupNameInput" placeholder="مثال: شلة إب أو مجلس الشباب" style="margin-bottom:6px;">
+        <label>اختر الأعضاء للمجموعة:</label>
+        <div id="groupMembersPicker" class="member-check-list"></div>
+        <div class="two-cols" style="margin-top:4px;">
+          <button type="button" class="b-green">✅ إنشاء المجموعة</button>
+          <button type="button">إلغاء</button>
+        </div>
+      </div>
+
+      <div id="pinnedBanner" class="pinned-banner">
+        <span id="pinnedText">📌 رسالة مثبتة</span>
+        <button type="button" class="tiny-link-btn">إزالة</button>
+      </div>
+
+      <div id="typingIndicator" class="typing-bar"></div>
+      <div id="msgsContainer" class="msgs-box"><div style="margin:auto; text-align:center; color:var(--muted); font-size:13px;">أنشئ حساباً جديداً أو اختر مستخدماً آخر لبدء الدردشة.</div></div>
+
+      <div id="replyPreviewBar" class="reply-preview-bar">
+        <span id="replyPreviewText">↩️ رد على رسالة</span>
+        <button type="button" class="tiny-link-btn">إلغاء</button>
+      </div>
+
+      <div id="chatAttachBox" style="display:none; align-items:center; justify-content:space-between; gap:8px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:7px 10px; margin-bottom:6px; font-size:12px;">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <img id="chatAttachThumb" style="width:36px; height:36px; border-radius:8px; object-fit:cover;" alt="صورة">
+          <span>صورة جاهزة للإرسال</span>
+        </div>
+        <button type="button" class="b-red" style="width:auto; padding:4px 8px; font-size:11px;">إلغاء</button>
+      </div>
+
+      <div class="send-bar">
+        <input type="file" id="chatFileInput" accept="image/*" style="display:none;">
+        <button type="button" class="b-accent">📷</button>
+        <input type="text" id="chatInput" placeholder="اكتب رسالة أو رابط (https://...)...">
+        <button type="button" class="b-green">إرسال</button>
+      </div>
+    </section>
+
+    <!-- صفحة 3: إرسال سريع -->
+    <section id="view-send" class="page-view">
+      <div class="box-card">
+        <div class="box-title">➕ إرسال صورة أو رابط</div>
+        <label>إرسال إلى:</label>
+        <select id="quickToSelect" style="margin-bottom:10px;"></select>
+
+        <label>الرابط أو النص:</label>
+        <input type="text" id="quickTextInput" placeholder="https://example.com أو اكتب نصاً..." style="margin-bottom:10px;">
+
+        <input type="file" id="quickFileInput" accept="image/*" style="display:none;">
+        <button type="button" class="b-accent">🖼️ اختيار صورة من المعرض</button>
+        <img id="quickImgPreview" style="display:none; width:100%; max-height:220px; object-fit:cover; border-radius:10px; margin-top:10px;" alt="معاينة">
+
+        <button type="button" class="b-green" style="margin-top:12px;">إرسال الآن</button>
+      </div>
+    </section>
+
+    <!-- صفحة 4: التنبيهات -->
+    <section id="view-alerts" class="page-view">
+      <div class="box-card">
+        <div class="box-title">🔔 الإشعارات ووضع الهدوء</div>
+        <div class="two-cols" style="margin-top:0; margin-bottom:10px;">
+          <button type="button" class="b-accent">تفعيل إشعارات المتصفح</button>
+          <button type="button" class="b-gold" id="silentModeBtn">🔇 وضع الهدوء: مطفأ</button>
+        </div>
+        <div id="alertsHistory" style="margin-top:10px; font-size:12.5px; color:var(--muted); line-height:1.8;"><div>• ١٢:٥٤ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div><div>• ١٢:٥٣ ص — ابتداءً من الحساب الثالث يجب أن يكون اسم المستخدم 3 أحرف أو أرقام فأكثر ⚠️</div></div>
+      </div>
+    </section>
+
+    <!-- صفحة 5: الحسابات وتسجيل الدخول -->
+    <section id="view-account" class="page-view active">
+      <div class="box-card">
+        <div class="prof-top">
+          <img id="profAv" class="prof-av" alt="أفاتار" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'&gt;&lt;rect width='100%25' height='100%25' fill='%230095f6'/&gt;&lt;text x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='Tahoma,Arial' font-size='52' font-weight='bold'&gt;%D8%B9&lt;/text&gt;&lt;/svg&gt;">
+          <div style="min-width:0; flex:1;">
+            <div style="display:flex; align-items:center; flex-wrap:wrap; gap:4px;">
+              <span id="profName" style="font-size:15.5px; font-weight:bold;">عبد الرحمن العواضي</span>
+              <span id="profVerifyIcon" class="ver-badge" title="حساب موثق" style="display: inline-flex;">✓</span>
+            </div>
+            <div id="profEnName" style="font-size:12px; color:#cbd5e1; direction:ltr; text-align:right; margin-top:2px;">Abdulrahman Al-Awadhi</div>
+            <div id="profHandle" class="handle-pill">@1</div>
+            <div id="profBadgeLine" style="margin-top:4px;"><span class="badge-tag">عضو مميز</span></div>
+            <div id="profBioText" class="bio-box-txt">عبود العواضي</div>
+            <div id="profEmailText" style="font-size:11px; color:var(--muted); margin-top:3px;">abdulrahman@chatarab.local</div>
+            <div id="profStatusLine" style="font-size:11.5px; color:var(--green); margin-top:3px;">متاح الآن</div>
+            <div id="profStats" style="font-size:11.5px; color:var(--muted); margin-top:3px;">0 رسالة • 1 حسابات</div>
+          </div>
+        </div>
+
+        <label>الاسم العام (يظهر للكل — يدعم الحركات والزخرفة):</label>
+        <div style="display:flex; gap:6px; margin-bottom:6px;">
+          <input type="text" id="myPublicNameInput" placeholder="مثال: ✦ عبد الرحمن العواضي ✦" style="flex:1;">
+          <button type="button" class="b-accent" style="width:auto; padding:0 10px; font-size:11.5px;">حفظ الاسم</button>
+        </div>
+
+        <div class="decor-strip" aria-label="حركات وزخرفة الاسم العام">
+          <button type="button" class="decor-chip">✦ نجوم ✦</button>
+          <button type="button" class="decor-chip">♛ تاج ♛</button>
+          <button type="button" class="decor-chip">『 أقواس 』</button>
+          <button type="button" class="decor-chip">۝ زخرفة عربية ۝</button>
+          <button type="button" class="decor-chip">إزالة الحركات</button>
+        </div>
+
+        <label>الاسم بالإنجليزي (English Name):</label>
+        <input type="text" id="myEnNameInput" placeholder="Abdulrahman Al-Awadhi" style="margin-bottom:8px;">
+
+        <label>النبذة التعريفية (Bio):</label>
+        <input type="text" id="myBioInput" placeholder="اكتب نبذة قصيرة عنك..." style="margin-bottom:8px;">
+
+        <label>حالتي / ستوري قصيرة:</label>
+        <div style="display:flex; gap:6px; margin-bottom:8px;">
+          <input type="text" id="myStatusInput" placeholder="اكتب حالتك الآن..." style="flex:1;">
+          <button type="button" class="b-accent" style="width:auto; padding:0 12px;">حفظ</button>
+        </div>
+
+        <label>لقب / شارة الحساب:</label>
+        <div style="display:flex; gap:6px; margin-bottom:8px;">
+          <input type="text" id="myBadgeInput" placeholder="مثال: مؤسس المجلس أو تقني" style="flex:1;">
+          <button type="button" class="b-gold" style="width:auto; padding:0 12px;">تحديث</button>
+        </div>
+
+        <div class="two-cols" style="margin-top:0; margin-bottom:8px;">
+          <button type="button" class="b-accent">✓ علامة التوثيق</button>
+          <button type="button" class="b-gold">👑 لون التوثيق (أزرق/ذهبي)</button>
+        </div>
+
+        <input type="file" id="accAvInput" accept="image/*" style="display:none;">
+        <div class="three-cols" style="margin-top:8px;">
+          <button type="button" class="b-accent">أفاتار</button>
+          <button type="button" class="b-green">🪪 بطاقتي</button>
+          <button type="button" class="b-red">قفل الحساب</button>
+        </div>
+      </div>
+
+      <div class="box-card">
+        <div class="box-title">
+          <span>قائمة الحسابات</span>
+          <button type="button" class="b-accent" style="width:auto; padding:5px 10px; font-size:11px;">+ إضافة حساب</button>
+        </div>
+        <div id="igAccountsList" class="ig-account-list"><div class="ig-account-row is-current">
+          <div class="ig-acc-left">
+            <img class="ig-acc-av" src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'&gt;&lt;rect width='100%25' height='100%25' fill='%230095f6'/&gt;&lt;text x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='Tahoma,Arial' font-size='52' font-weight='bold'&gt;%D8%B9&lt;/text&gt;&lt;/svg&gt;" alt="عبد الرحمن العواضي">
+            <div>
+              <div class="ig-acc-name">عبد الرحمن العواضي <span class="ver-badge ">✓</span> <span class="badge-tag">عضو مميز</span></div>
+              <div class="ig-acc-email">@1 • Abdulrahman Al-Awadhi • abdulrahman@chatarab.local</div>
+            </div>
+          </div>
+          <div class="ig-check">✓</div>
+        </div></div>
+      </div>
+
+      <div class="box-card">
+        <div class="mode-switch">
+          <button type="button" id="modeLoginBtn" class="mode-btn">تسجيل دخول</button>
+          <button type="button" id="modeSignupBtn" class="mode-btn active-mode">إنشاء حساب بالبريد</button>
+        </div>
+
+        <div id="loginEmailForm" style="display: none;">
+          <label>البريد الإلكتروني:</label>
+          <input type="email" id="loginEmailInput" placeholder="example@gmail.com" style="margin-bottom:8px;">
+
+          <label>كلمة المرور:</label>
+          <input type="password" id="loginPassInput" placeholder="أدخل كلمة المرور..." style="margin-bottom:8px;">
+
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; background:var(--card-2); border:1px solid var(--line); border-radius:10px; padding:8px 10px; margin-bottom:8px;">
+            <span style="font-size:12px;">🔁 البقاء مسجلاً للدخول دائماً</span>
+            <button type="button" id="staySignedInBtn" class="b-green" style="width:auto; padding:5px 10px; font-size:11px;">مفعّلة (اضغط للإلغاء)</button>
+          </div>
+
+          <div class="two-cols">
+            <button type="button" class="b-green">دخول</button>
+            <button type="button" class="b-gold">تغيير كلمة السر</button>
+          </div>
+        </div>
+
+        <div id="signupEmailForm" style="display: block;">
+          <label>الاسم الظاهر (عربي):</label>
+          <input type="text" id="signupNameInput" placeholder="مثال: خالد" style="margin-bottom:8px;">
+
+          <label>الاسم بالإنجليزي (اختياري):</label>
+          <input type="text" id="signupEnNameInput" placeholder="Example: Khaled" style="margin-bottom:8px;">
+
+          <label>اسم المستخدم (@username):</label>
+          <input type="text" id="signupUsernameInput" placeholder="لأول حسابين: رقم/حرف أو أكثر • من الحساب الثالث: 3 أحرف/أرقام فأكثر" style="margin-bottom:8px;">
+
+          <label>البريد الإلكتروني:</label>
+          <input type="email" id="signupEmailInput" placeholder="khaled@example.com" style="margin-bottom:8px;">
+
+          <label>كلمة المرور:</label>
+          <input type="password" id="signupPassInput" placeholder="اختر كلمة سر..." style="margin-bottom:10px;">
+
+          <button type="button" class="b-green">إنشاء حساب جديد</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- صفحة 6: مركز الإعدادات المنظم -->
+    <section id="view-settings" class="page-view">
+      <div class="box-card">
+        <div class="box-title">
+          <span>⚙️ مركز إعدادات شات العرب</span>
+          <button type="button" class="b-accent" style="width:auto; padding:5px 10px; font-size:11px;">← رجوع</button>
+        </div>
+
+        <div class="set-cat-bar" role="tablist">
+          <button type="button" class="set-cat-pill active" data-setcat="all">الكل</button>
+          <button type="button" class="set-cat-pill" data-setcat="security">الأمان والخصوصية</button>
+          <button type="button" class="set-cat-pill" data-setcat="appearance">المظهر</button>
+          <button type="button" class="set-cat-pill" data-setcat="recovery">الحساب والاستعادة</button>
+          <button type="button" class="set-cat-pill" data-setcat="about">نبذة وتعليمات</button>
+        </div>
+      </div>
+
+      <div class="set-group" data-setgroup="security">
+        <div class="box-card">
+          <div class="box-title">🔐 الأمان والخصوصية</div>
+          <div class="set-row-item">
+            <div>
+              <div class="set-row-title">🔁 البقاء مسجلاً للدخول دائماً</div>
+              <div class="set-row-sub">تفعيل أو إلغاء الدخول التلقائي عند فتح التطبيق</div>
+            </div>
+            <button type="button" id="staySignedInSettingsBtn" class="b-green" style="width: auto; padding: 5px 10px; font-size: 11px;">مفعّلة (اضغط للإلغاء)</button>
+          </div>
+
+          <div class="set-row-item">
+            <div>
+              <div class="set-row-title">⏱️ القفل التلقائي عند الخمول</div>
+              <div class="set-row-sub">يقفل الحساب تلقائياً بعد دقيقة من عدم النشاط</div>
+            </div>
+            <button type="button" id="autoLockBtn" class="b-gold" style="width: auto; padding: 5px 10px; font-size: 11px;">ملغاة</button>
+          </div>
+
+          <div class="set-row-item">
+            <div>
+              <div class="set-row-title">👻 وضع الشبح والتخفي</div>
+              <div class="set-row-sub">يخفي مؤشر الكتابة أثناء المراسلة</div>
+            </div>
+            <button type="button" id="ghostModeBtn" class="b-gold" style="width: auto; padding: 5px 10px; font-size: 11px;">ملغاة</button>
+          </div>
+
+          <label>رمز PIN سريع للقفل الإضافي:</label>
+          <div style="display:flex; gap:6px; margin-bottom:8px;">
+            <input type="password" id="pinCodeInput" placeholder="مثال: 2026" style="flex:1;">
+            <button type="button" class="b-green" style="width:auto; padding:0 12px;">حفظ PIN</button>
+          </div>
+
+          <div class="two-cols" style="margin-top:0;">
+            <button type="button" class="b-gold">🔐 قفل فوري</button>
+            <button type="button" class="b-red">🧹 مسح بيانات الجهاز</button>
+          </div>
+          <div id="blockedListText" style="margin-top:8px; font-size:11.5px; color:var(--muted);">المحظورون: لا أحد</div>
+        </div>
+      </div>
+
+      <div class="set-group" data-setgroup="appearance">
+        <div class="box-card">
+          <div class="box-title">🎨 المظهر والشعار والخط</div>
+          <div class="four-cols" style="margin-bottom:8px;">
+            <button type="button" class="b-accent">داكن</button>
+            <button type="button" class="b-accent">أزرق</button>
+            <button type="button" class="b-green">زمردي</button>
+            <button type="button" class="b-gold">بنفسجي</button>
+          </div>
+
+          <div class="three-cols" style="margin-bottom:10px;">
+            <button type="button">خط صغير</button>
+            <button type="button">خط متوسط</button>
+            <button type="button">خط كبير</button>
+          </div>
+
+          <div class="three-cols" style="margin-bottom:10px;">
+            <button type="button" class="b-accent">عربي فقط</button>
+            <button type="button" class="b-accent">إنجليزي</button>
+            <button type="button" class="b-gold">الاسمان معاً</button>
+          </div>
+
+          <label>رابط صورة شعار التطبيق (الافتراضي حرف A):</label>
+          <input type="text" id="logoUrlInput" placeholder="https://example.com/a-logo.png" style="margin-bottom:8px;">
+          <div class="two-cols" style="margin-top:0;">
+            <button type="button" class="b-accent">صورة من المعرض</button>
+            <button type="button" class="b-gold">الافتراضي (A)</button>
+          </div>
+          <input type="file" id="logoFileInput" accept="image/*" style="display:none;">
+        </div>
+      </div>
+
+      <div class="set-group" data-setgroup="recovery">
+        <div class="box-card">
+          <div class="box-title">🆘 استعادة الحساب وكود الطوارئ</div>
+          <div style="font-size:11.5px; color:var(--muted);">كود الطوارئ الخاص بحسابك الحالي:</div>
+          <div id="myRecoveryCodeDisplay" class="recovery-code-pill">ARAB-1-6036</div>
+          <div class="two-cols" style="margin-top:0; margin-bottom:10px;">
+            <button type="button" class="b-green">📋 نسخ كود الطوارئ</button>
+            <button type="button" class="b-gold">🔄 توليد كود جديد</button>
+          </div>
+
+          <label>استعادة حساب عبر البريد أو @اسم_المستخدم أو كود الطوارئ:</label>
+          <input type="text" id="recoverIdentifierInput" placeholder="مثال: @1 أو البريد أو ARAB-..." style="margin-bottom:8px;">
+          <input type="password" id="recoverNewPassInput" placeholder="كلمة المرور الجديدة..." style="margin-bottom:8px;">
+          <button type="button" class="b-accent">🔓 استعادة الحساب وتحديث كلمة السر</button>
+          <div id="recoverStatusMsg" style="font-size:11.5px; color:#6ee7b7; margin-top:6px;"></div>
+        </div>
+
+        <div class="box-card">
+          <div class="box-title">💾 النسخ الاحتياطي وقاعدة البيانات</div>
+          <div class="two-cols" style="margin-top:0; margin-bottom:10px;">
+            <button type="button" class="b-accent">تصدير نسخة</button>
+            <button type="button" class="b-green">استيراد نسخة</button>
+          </div>
+          <textarea id="backupBoxArea" rows="3" placeholder="كود النسخة الاحتياطية..." style="margin-bottom:10px;"></textarea>
+
+          <label>مفتاح التشفير السري:</label>
+          <input type="password" id="encKeyInput" value="1234" style="margin-bottom:10px;">
+
+          <label>رابط قاعدة البيانات (Firebase DB URL):</label>
+          <input type="text" id="dbUrlBox" style="margin-bottom:10px;">
+
+          <label>رابط مشاركة التطبيق:</label>
+          <input type="text" id="appShareUrlInput" placeholder="https://..." style="margin-bottom:8px;">
+          <div class="two-cols" style="margin-top:0;">
+            <button type="button" class="b-accent">مشاركة الرابط</button>
+            <button type="button" class="b-green">نسخ الرابط</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="set-group" data-setgroup="about">
+        <div class="box-card">
+          <div class="box-title">ℹ️ نبذة عن التطبيق</div>
+          <div class="about-hero-card">
+            <div style="font-size:14px; font-weight:bold; margin-bottom:4px;">شات العرب (Chat Al-Arab) — v13.0 PWA</div>
+            <div style="font-size:11.5px; color:var(--muted); line-height:1.55;">
+              تطبيق تواصل عربي سريع يجمع بين الدردشات الخاصة والمجالس، الحسابات الموثقة، البحث، الريلزات الخفيفة، وأدوات الخصوصية والاستعادة.
+            </div>
+          </div>
+          <div class="about-meta-row"><span class="about-meta-label">الحساب الرسمي:</span><span class="about-meta-val">عبد الرحمن العواضي (@1)</span></div>
+          <div class="about-meta-row"><span class="about-meta-label">الاسم الإنجليزي:</span><span class="about-meta-val">Abdulrahman Al-Awadhi</span></div>
+          <div class="about-meta-row"><span class="about-meta-label">التشفير والحماية:</span><span class="about-meta-val">XOR + PIN + تمويه + قفل تلقائي</span></div>
+          <button type="button" class="b-accent" style="margin-top:8px;">📋 نسخ نبذة التطبيق</button>
+        </div>
+
+        <div class="box-card">
+          <div class="box-title">📘 تعليمات الجدد</div>
+          <div class="guide-step-box"><b>1. تسجيل الدخول أو إنشاء حساب:</b> من صفحة <b>حسابي</b> يمكنك الدخول أو إنشاء حساب جديد باسم مستخدم متاح.</div>
+          <div class="guide-step-box"><b>2. المراسلة والمجالس:</b> اختر محادثة خاصة أو مجلساً عاماً من الشريط العلوي، واستخدم الرد أو التثبيت أو الحذف.</div>
+          <div class="guide-step-box"><b>3. البحث والريلزات والمحفوظات:</b> في صفحة <b>الرئيسية</b> يمكنك البحث عن الأعضاء، تصفح الريلزات، وحفظ المفضل لديك.</div>
+          <div class="guide-step-box"><b>4. الأمان وكود الطوارئ:</b> احفظ كود الطوارئ ورمز PIN من <b>الإعدادات</b> لتأمين حسابك واستعادته عند الحاجة.</div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="nav-bar">
+      <button type="button" id="btn-home" class="nav-item">🏠<span>الرئيسية</span></button>
+      <button type="button" id="btn-chat" class="nav-item">💬<span>المحادثات</span></button>
+      <button type="button" id="btn-send" class="nav-item">➕<span>إرسال</span></button>
+      <button type="button" id="btn-alerts" class="nav-item">🔔<span>التنبيهات</span></button>
+      <button type="button" id="btn-account" class="nav-item active">👤<span>حسابي</span></button>
+    </nav>
+  </div>
+
+
+</body></html>
+------MultipartBoundary--aEn8VabRdG7VImHvvHGKKw5kJz431cuXCrkm3dm4xk----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-32c9df89-ac4f-4e5e-8738-ada41b558909@mhtml.blink
+
+@charset "utf-8";
+
+:root { --bg: #000000; --card: #121212; --card-2: #1c1c1c; --line: rgba(255, 255, 255, 0.14); --txt: #ffffff; --muted: #a3a3a3; --accent: #0095f6; --green: #22c55e; --red: #ef4444; --gold: #f59e0b; --chat-font: 13px; --ig-ring: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+
+body[data-theme="ocean"] { --bg: #050d1a; --card: #0c192e; --card-2: #152642; --accent: #38bdf8; }
+
+body[data-theme="emerald"] { --bg: #04120d; --card: #0a2018; --card-2: #123327; --accent: #10b981; }
+
+body[data-theme="royal"] { --bg: #090514; --card: #140d2b; --card-2: #201542; --accent: #a855f7; }
+
+body.privacy-blur .app-wrap { filter: blur(12px); transition: filter 0.2s; }
+
+* { box-sizing: border-box; font-family: Tahoma, Arial, sans-serif; }
+
+html, body { margin: 0px; padding: 0px; background: var(--bg); color: var(--txt); }
+
+.app-wrap { width: 100%; max-width: 480px; margin: 0px auto; min-height: 100vh; background: var(--bg); border-left: 1px solid var(--line); border-right: 1px solid var(--line); padding-bottom: 86px; }
+
+.top-bar { position: sticky; top: 0px; z-index: 30; background: rgba(0, 0, 0, 0.95); border-bottom: 1px solid var(--line); padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+
+.top-brand { display: flex; align-items: center; gap: 9px; min-width: 0px; cursor: pointer; }
+
+.brand-mark { width: 36px; height: 36px; border-radius: 11px; background: linear-gradient(135deg, var(--accent), #bc1888); display: grid; place-items: center; font-size: 19px; font-weight: bold; color: rgb(255, 255, 255); overflow: hidden; flex-shrink: 0; }
+
+.brand-mark img { width: 100%; height: 100%; object-fit: cover; }
+
+.top-title { font-size: 15px; font-weight: bold; }
+
+.top-sub { font-size: 10.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 135px; }
+
+.top-actions { display: flex; align-items: center; gap: 5px; }
+
+.mini-pill { width: auto; padding: 6px 8px; border-radius: 999px; font-size: 10.5px; white-space: nowrap; }
+
+.top-status { padding: 5px 8px; border-radius: 999px; font-size: 10.5px; font-weight: bold; cursor: pointer; white-space: nowrap; }
+
+.top-status.locked { background: rgba(239, 68, 68, 0.18); color: rgb(252, 165, 165); border: 1px solid rgba(239, 68, 68, 0.4); }
+
+.top-status.open { background: rgba(34, 197, 94, 0.18); color: rgb(134, 239, 172); border: 1px solid rgba(34, 197, 94, 0.4); }
+
+.stories-row { display: flex; gap: 11px; padding: 10px 14px; overflow-x: auto; border-bottom: 1px solid var(--line); }
+
+.story-btn { display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 66px; cursor: pointer; }
+
+.story-frame { width: 54px; height: 54px; border-radius: 50%; padding: 2px; background: var(--ig-ring); display: grid; place-items: center; }
+
+.story-frame img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 2px solid var(--bg); background: var(--card-2); }
+
+.story-label { font-size: 11px; font-weight: bold; max-width: 72px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.story-status-txt { font-size: 10px; color: var(--muted); max-width: 74px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.rooms-bar { display: flex; gap: 6px; padding: 8px 14px; overflow-x: auto; border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, 0.02); }
+
+.room-chip { width: auto; padding: 5px 10px; border-radius: 999px; font-size: 11px; background: var(--card-2); border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+
+.room-chip.active-room { background: var(--accent); border-color: var(--accent); color: rgb(255, 255, 255); }
+
+.alert-bar { display: none; background: rgb(20, 83, 45); color: rgb(236, 253, 245); padding: 9px 14px; font-size: 12px; font-weight: bold; align-items: center; justify-content: space-between; gap: 8px; border-bottom: 1px solid var(--line); }
+
+.alert-bar.show { display: flex; }
+
+.page-view { display: none; padding: 13px; }
+
+.page-view.active { display: block; }
+
+.box-card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 13px; margin-bottom: 12px; }
+
+.box-title { font-size: 13.5px; font-weight: bold; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+
+label { display: block; font-size: 11.5px; color: var(--muted); margin-bottom: 5px; }
+
+input, select, textarea, button { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--card-2); color: var(--txt); font-size: 13px; outline: none; }
+
+button { cursor: pointer; font-weight: bold; }
+
+.b-accent { background: var(--accent); border-color: var(--accent); color: rgb(255, 255, 255); }
+
+.b-green { background: var(--green); border-color: var(--green); color: rgb(5, 32, 16); }
+
+.b-red { background: rgba(239, 68, 68, 0.18); border-color: rgba(239, 68, 68, 0.45); color: rgb(252, 165, 165); }
+
+.b-gold { background: rgba(245, 158, 11, 0.18); border-color: rgba(245, 158, 11, 0.45); color: rgb(253, 230, 138); }
+
+.two-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+
+.three-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+
+.four-cols { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+
+.badge-tag { display: inline-block; padding: 2px 7px; border-radius: 999px; font-size: 10px; background: rgba(0, 149, 246, 0.18); color: rgb(125, 211, 252); border: 1px solid rgba(0, 149, 246, 0.35); margin-right: 4px; }
+
+.ver-badge { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border-radius: 50%; font-size: 10px; font-weight: bold; color: rgb(255, 255, 255); background: rgb(0, 149, 246); vertical-align: middle; margin-right: 4px; }
+
+.ver-badge.gold { background: linear-gradient(45deg, rgb(245, 158, 11), rgb(251, 191, 36)); color: rgb(26, 18, 0); }
+
+.handle-pill { display: inline-block; direction: ltr; font-size: 11px; color: rgb(147, 197, 253); background: rgba(59, 130, 246, 0.14); border: 1px solid rgba(59, 130, 246, 0.3); padding: 1px 7px; border-radius: 999px; margin-top: 3px; }
+
+.bio-box-txt { font-size: 11.5px; color: var(--muted); margin-top: 5px; line-height: 1.45; }
+
+.mode-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 12px; }
+
+.mode-btn.active-mode { background: var(--accent); border-color: var(--accent); color: rgb(255, 255, 255); }
+
+.ig-account-list { display: flex; flex-direction: column; gap: 8px; }
+
+.ig-account-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 10px; border-radius: 12px; background: var(--card-2); border: 1px solid var(--line); cursor: pointer; }
+
+.ig-account-row.is-current { border-color: var(--accent); }
+
+.ig-acc-left { display: flex; align-items: center; gap: 10px; min-width: 0px; }
+
+.ig-acc-av { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; background: rgb(0, 0, 0); flex-shrink: 0; }
+
+.ig-acc-name { font-size: 13px; font-weight: bold; }
+
+.ig-acc-email { font-size: 10.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 175px; }
+
+.ig-check { width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: rgb(255, 255, 255); font-size: 12px; display: grid; place-items: center; flex-shrink: 0; }
+
+.post-card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; margin-bottom: 12px; overflow: hidden; }
+
+.post-top { padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+
+.post-author { display: flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: bold; }
+
+.post-author img { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; }
+
+.post-pic { width: 100%; max-height: 270px; object-fit: cover; display: block; cursor: pointer; }
+
+.post-caption { padding: 10px 12px; font-size: var(--chat-font); line-height: 1.55; word-break: break-word; }
+
+.post-caption a { color: var(--accent); text-decoration: underline; }
+
+.pinned-banner { display: none; background: rgba(245, 158, 11, 0.14); border: 1px solid rgba(245, 158, 11, 0.4); color: rgb(253, 230, 138); border-radius: 10px; padding: 7px 10px; font-size: 11.5px; margin-bottom: 8px; align-items: center; justify-content: space-between; gap: 8px; }
+
+.pinned-banner.show { display: flex; }
+
+.peer-row { display: flex; gap: 6px; align-items: flex-end; margin-bottom: 8px; }
+
+.typing-bar { min-height: 19px; font-size: 11.5px; color: var(--green); padding: 0px 4px 5px; font-weight: bold; }
+
+.msgs-box { height: 305px; overflow-y: auto; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px; margin-bottom: 8px; display: flex; flex-direction: column; gap: 8px; }
+
+.bubble { max-width: 84%; padding: 8px 11px; border-radius: 15px; font-size: var(--chat-font); line-height: 1.5; word-break: break-word; }
+
+.bubble.mine { align-self: flex-start; background: var(--accent); color: rgb(255, 255, 255); }
+
+.bubble.other { align-self: flex-end; background: var(--card-2); border: 1px solid var(--line); }
+
+.bubble a { color: rgb(253, 224, 71); text-decoration: underline; word-break: break-all; }
+
+.bubble img { display: block; max-width: 100%; max-height: 190px; border-radius: 10px; margin-top: 6px; cursor: pointer; }
+
+.bubble-enc { margin-top: 4px; font-size: 10px; opacity: 0.75; direction: ltr; text-align: left; overflow-x: auto; }
+
+.bubble-actions { margin-top: 5px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 10.5px; }
+
+.tiny-link-btn { background: rgba(255, 255, 255, 0.12); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: inherit; padding: 2px 6px; border-radius: 6px; width: auto; font-size: 10px; }
+
+.bubble-meta { margin-top: 4px; font-size: 10px; opacity: 0.85; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+
+.reply-preview-bar { display: none; background: var(--card); border: 1px solid var(--accent); border-radius: 10px; padding: 6px 10px; margin-bottom: 6px; font-size: 11.5px; align-items: center; justify-content: space-between; gap: 8px; }
+
+.reply-preview-bar.show { display: flex; }
+
+.send-bar { display: flex; gap: 5px; align-items: center; }
+
+.send-bar input[type="text"] { flex: 1 1 0%; border-radius: 999px; }
+
+.send-bar button { width: auto; padding: 10px 12px; border-radius: 999px; }
+
+.prof-top { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+
+.prof-av { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent); background: var(--card-2); }
+
+.lightbox-modal { display: none; position: fixed; inset: 0px; z-index: 90; background: rgba(0, 0, 0, 0.94); padding: 16px; align-items: center; justify-content: center; flex-direction: column; gap: 12px; }
+
+.lightbox-modal.show { display: flex; }
+
+.lightbox-modal img { max-width: 100%; max-height: 78vh; border-radius: 12px; object-fit: contain; }
+
+.nav-bar { position: fixed; bottom: 0px; left: 50%; transform: translateX(-50%); width: 100%; max-width: 480px; background: rgba(0, 0, 0, 0.97); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(5, 1fr); padding: 7px 4px; z-index: 40; }
+
+.nav-item { background: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 4px 2px; color: var(--muted); font-size: 17px; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+
+.nav-item span { font-size: 10px; }
+
+.nav-item.active { color: var(--txt); }
+
+.pub-card { background: linear-gradient(135deg, rgba(0, 149, 246, 0.14), rgba(188, 24, 136, 0.12)); border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 14px; padding: 12px; margin-bottom: 12px; }
+
+.pub-grid { display: flex; flex-direction: column; gap: 8px; }
+
+.pub-user-item { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: var(--card-2); border: 1px solid var(--line); border-radius: 12px; padding: 9px 10px; }
+
+.decor-strip { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 8px; }
+
+.decor-chip { width: auto; padding: 4px 8px; font-size: 11px; border-radius: 8px; background: rgba(255, 255, 255, 0.08); border: 1px solid var(--line); }
+
+.search-page-card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px; margin-bottom: 12px; }
+
+.user-hit-card { display: flex; align-items: center; justify-content: space-between; gap: 10px; background: var(--card-2); border: 1px solid var(--line); border-radius: 12px; padding: 10px; margin-bottom: 8px; }
+
+.reel-card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px; margin-bottom: 14px; overflow: hidden; }
+
+.reel-player-wrap { position: relative; border-radius: 12px; overflow: hidden; background: rgb(5, 7, 12); border: 1px solid rgba(255, 255, 255, 0.12); margin-top: 8px; margin-bottom: 10px; }
+
+.reel-video { width: 100%; max-height: 430px; object-fit: cover; display: block; background: rgb(0, 0, 0); }
+
+.reel-actions-bar { display: flex; align-items: center; justify-content: space-between; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+
+.reel-pill-btn { width: auto; padding: 6px 10px; font-size: 12px; border-radius: 999px; background: rgba(255, 255, 255, 0.09); border: 1px solid rgba(255, 255, 255, 0.16); display: inline-flex; align-items: center; gap: 4px; }
+
+.reel-pill-btn.active-like { background: rgba(239, 68, 68, 0.22); border-color: rgba(239, 68, 68, 0.6); color: rgb(252, 165, 165); }
+
+.reel-comments-box { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); }
+
+.reel-comment-item { font-size: 11.5px; background: var(--card-2); border-radius: 8px; padding: 6px 8px; margin-bottom: 5px; }
+
+.guide-step-box { background: var(--card-2); border-top-color: ; border-top-style: ; border-top-width: ; border-bottom-color: ; border-bottom-style: ; border-bottom-width: ; border-left-color: ; border-left-style: ; border-left-width: ; border-image-source: ; border-image-slice: ; border-image-width: ; border-image-outset: ; border-image-repeat: ; border-right: 3px solid var(--accent); border-radius: 10px; padding: 8px 10px; margin-bottom: 7px; font-size: 12px; line-height: 1.55; }
+
+.saved-chip-btn.is-saved { background: rgba(245, 158, 11, 0.25); border-color: rgba(245, 158, 11, 0.7); color: rgb(253, 230, 138); }
+
+.recovery-code-pill { direction: ltr; font-family: monospace; font-size: 13px; font-weight: bold; letter-spacing: 1.5px; background: rgba(16, 185, 129, 0.14); border: 1px dashed rgba(16, 185, 129, 0.6); color: rgb(110, 231, 183); padding: 8px 12px; border-radius: 10px; text-align: center; margin: 6px 0px; }
+
+.set-cat-bar { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 10px; scrollbar-width: none; }
+
+.set-cat-bar::-webkit-scrollbar { display: none; }
+
+.set-cat-pill { width: auto; white-space: nowrap; padding: 6px 11px; font-size: 11.5px; border-radius: 999px; background: var(--card-2); border: 1px solid var(--line); color: var(--muted); }
+
+.set-cat-pill.active { background: var(--accent); border-color: transparent; color: rgb(255, 255, 255); font-weight: bold; }
+
+.set-row-item { display: flex; align-items: center; justify-content: space-between; gap: 10px; background: var(--card-2); border: 1px solid var(--line); border-radius: 12px; padding: 10px 11px; margin-bottom: 8px; }
+
+.set-row-item:last-child { margin-bottom: 0px; }
+
+.set-row-title { font-size: 12.5px; font-weight: bold; margin-bottom: 2px; }
+
+.set-row-sub { font-size: 11px; color: var(--muted); line-height: 1.4; }
+
+.about-hero-card { background: linear-gradient(135deg, rgba(0, 149, 246, 0.16), rgba(16, 185, 129, 0.12)); border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 14px; padding: 12px; margin-bottom: 10px; }
+
+.about-meta-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: var(--card-2); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; margin-bottom: 7px; font-size: 12px; }
+
+.about-meta-row:last-child { margin-bottom: 0px; }
+
+.about-meta-label { color: var(--muted); }
+
+.about-meta-val { font-weight: bold; }
+
+.react-row { display: flex; gap: 4px; margin-top: 5px; flex-wrap: wrap; }
+
+.react-btn { width: auto; padding: 2px 6px; font-size: 11px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.14); }
+
+.call-modal { display: none; position: fixed; inset: 0px; z-index: 95; background: rgba(5, 8, 16, 0.96); padding: 16px; flex-direction: column; align-items: center; justify-content: space-between; }
+
+.call-modal.show { display: flex; }
+
+.call-stage { width: 100%; max-width: 440px; flex: 1 1 0%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; text-align: center; }
+
+.call-avatar-ring { width: 104px; height: 104px; border-radius: 50%; padding: 3px; background: linear-gradient(135deg, var(--accent), var(--green)); display: grid; place-items: center; }
+
+.call-avatar-ring img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; background: var(--card-2); }
+
+.call-video-preview { width: 100%; max-height: 250px; border-radius: 14px; background: rgb(12, 18, 32); border: 1px solid var(--line); object-fit: cover; display: none; }
+
+.call-video-preview.active { display: block; }
+
+.call-controls { width: 100%; max-width: 440px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+
+.group-creator-box { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px; margin-bottom: 10px; }
+
+.member-check-list { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0px 10px; }
+
+.member-chip-btn { width: auto; padding: 5px 10px; font-size: 11px; border-radius: 999px; background: var(--card-2); border: 1px solid var(--line); color: var(--muted); }
+
+.member-chip-btn.selected { background: rgba(0, 149, 246, 0.22); border-color: var(--accent); color: rgb(255, 255, 255); }
+
+.ig-dm-inbox { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px; margin-bottom: 10px; }
+
+.ig-dm-inbox-title { font-size: 12.5px; font-weight: bold; color: var(--muted); margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between; }
+
+.ig-dm-list { display: flex; flex-direction: column; gap: 6px; max-height: 210px; overflow-y: auto; }
+
+.ig-dm-item { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 10px; border-radius: 12px; background: var(--card-2); border: 1px solid transparent; cursor: pointer; transition: background 0.15s, border-color 0.15s; }
+
+.ig-dm-item:hover { background: rgba(255, 255, 255, 0.08); }
+
+.ig-dm-item.active-dm { border-color: var(--accent); background: rgba(0, 149, 246, 0.14); }
+
+.ig-dm-left { display: flex; align-items: center; gap: 10px; min-width: 0px; flex: 1 1 0%; }
+
+.ig-dm-av { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; background: rgb(0, 0, 0); flex-shrink: 0; }
+
+.ig-dm-name { font-size: 13px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.ig-dm-preview { font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; }
+
+.ig-dm-meta { text-align: left; flex-shrink: 0; font-size: 10px; color: var(--muted); }
+
+.ig-active-thread-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; margin-bottom: 8px; }
+------MultipartBoundary--aEn8VabRdG7VImHvvHGKKw5kJz431cuXCrkm3dm4xk------
